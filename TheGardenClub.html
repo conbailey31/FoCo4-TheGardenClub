@@ -1,3 +1,12 @@
+    <script>
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -26,14 +35,5 @@
         <h3>Cal Poly San Luis Obispo, CA 93407</h3>
 
     </div> <!--end of center div-->
-    <script>
-  (function(){
-    var redirect = sessionStorage.redirect;
-    delete sessionStorage.redirect;
-    if (redirect && redirect != location.href) {
-      history.replaceState(null, null, redirect);
-    }
-  })();
-</script>
 </body>
 </html>
