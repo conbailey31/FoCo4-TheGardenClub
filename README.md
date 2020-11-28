@@ -24,7 +24,6 @@
         <h1>Gardening a Better Tommorow!</h1>
         <h2>Join Us in Our Journey Toward Sustainability!</h2>
         <h3>Cal Poly San Luis Obispo, CA 93407</h3>
-
     </div> <!--end of center div-->
 </body>
 </html>
